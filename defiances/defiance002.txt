@@ -1,1 +1,0 @@
-Program that asks for year, month, day and when running displays the message: You were born in year month day. Correct?
