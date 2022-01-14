@@ -3,5 +3,5 @@ print('=' * 10, 'DEFIANCE 011', '=' * 10)
 hei = float(input('Enter the height of the wall in meters: '))
 wid = float(input('Enter the width of the wall in meters: '))
 sm = hei * wid
-pai = mq / 2
+pai = sm / 2
 print('The wall is {}m², you will need {:.1f} liters of paint.'.format(sm, pai))
