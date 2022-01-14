@@ -6,7 +6,7 @@ adj = sal * 15 / 100
 nsa = sal + adj
 print('-' * 35)
 print('The employee {} won: R${:.2f}'.format(nam, sal))
-print('With a 15% increase in the value of R${:.2f}'.format(adj))
+print('With a 15 percent increase in the value of R${:.2f}'.format(adj))
 print('$' * 15)
 print('Starts to receive R${:.2f}'.format(nsa))
 print('$' * 15)
