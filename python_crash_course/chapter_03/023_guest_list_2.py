@@ -1,0 +1,17 @@
+#Changing dinner guest list
+guests = ['thiago', 'ricardo', 'rodolfo']
+print('Dinner guest list')
+print('-' * 50)
+print('Hello', guests[0].title() + ",", 'I would like to invite you to dinner next weekend at my beach house.')
+print('Hello', guests[1].title() + ",", 'I would like to invite you to dinner next weekend at my beach house.')
+print('Hello', guests[2].title() + ",", 'I would like to invite you to dinner next weekend at my beach house.')
+dropout_guests = guests.pop(0)
+print('-' * 50)
+print(dropout_guests.title(), 'will not be able to attend the dinner.')
+guests.append('vinicius')
+print('-' * 50)
+print('New dinner guest list')
+print('-' * 50)
+print('Hello', guests[0].title() + ",", 'I would like to invite you to dinner next weekend at my beach house.')
+print('Hello', guests[1].title() + ",", 'I would like to invite you to dinner next weekend at my beach house.')
+print('Hello', guests[2].title() + ",", 'I would like to invite you to dinner next weekend at my beach house.')
