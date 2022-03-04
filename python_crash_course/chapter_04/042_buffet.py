@@ -1,6 +1,6 @@
 #Code that creates a tuple with five basic types of food.
 foods = ('roast beef', 'omelet', 'fried fish', 'noodle', 'chicken rice')
-print('-' * 5, 'BUFFET', '-' * 5)
+print('-' * 5, 'MENU', '-' * 5)
 for food in foods:
     print(food.title())
 
@@ -17,6 +17,6 @@ TypeError: 'tuple' object does not support item assignment
 
 #To modify a tuple, it is necessary to completely redefine it.
 foods = ('roast beef', 'omelet', 'fried chicken', 'fried rice', 'chicken rice')
-print('\n' + '-' * 5, 'NEW BUFFET', '-' * 5)
+print('\n' + '-' * 5, 'NEW MENU', '-' * 5)
 for food in foods:
     print(food.title())
