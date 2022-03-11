@@ -10,7 +10,7 @@ for food in foods:
 Cannot modify a value in the tuple.
 
 Traceback (most recent call last):
-  File "c:\python_crash_course\chapter_04\042_buffet.py", line 7, in <module>
+  File "c:\python_crash_course\chapter_04\4-13_buffet.py", line 7, in <module>
     foods[2] = 'fried chicken'
 TypeError: 'tuple' object does not support item assignment
 '''
