@@ -9,7 +9,7 @@ for material in materials:
     if (material in checklist):
         print(material.title(), '- Buy')
     else:
-        print(material.title(), ' - I already have')
+        print(material.title(), '- I already have')
 print('-' * 10, 'FOODS', '-' * 10)
 for food in foods:
     if food in checklist:
@@ -18,7 +18,9 @@ for food in foods:
         print(food.title(), '- I already bought')
 print('-' * 10, 'DRINKS', '-' * 10)
 for drink in drinks:
-    if drink in checklist:
+    if drink == 'sparkling water':
+        print(drink.title(), "- Only buy if it's cheap")    
+    elif drink in checklist:
         print(drink.title(), '- Buy')
     else:
         print(drink.title(), '- I already bought')
