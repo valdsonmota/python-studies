@@ -18,7 +18,8 @@ favorite_numbers = {
     }
 print('-' * 8, 'FAVORITE NUMBERS', '-' * 8)
 for name, number in favorite_numbers.items():
-    print(name.title() +
+    print(
+        name.title() +
         "'s favorite number are:",
         str(number) + '.'
     )
