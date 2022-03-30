@@ -5,7 +5,8 @@ rivers = {
     'parana': 'the eighth longest river in the world by length.'
 }
 for river, about in rivers.items():
-    print('\n',
-            river.title(),
-            'River is',
-            about)
+    print(
+        '\n' + river.title(),
+        'River is',
+        about
+    )
