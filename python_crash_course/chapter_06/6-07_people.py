@@ -22,4 +22,8 @@ for person in people:
     full_name = person['first_name'] + ' ' + person['last_name']
     age = person['age']
     city = person['city']
-    print('\nFull name:', full_name.title(), '\nAge:', age, '\nCity:', city.title())
+    print(
+        '\nFull name:', full_name.title(),
+        '\nAge:', age,
+        '\nCity:', city.title()
+    )
