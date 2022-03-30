@@ -6,4 +6,7 @@ person = {
     'city': 'maceio',
     }
 for k, v in person.items():
-    print(k.title() + ':', v.title())
+    print(
+        k.title() + ':',
+        v.title()
+    )
