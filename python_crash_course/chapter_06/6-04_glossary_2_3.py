@@ -11,4 +11,7 @@ glossary = {
     }
 print('-' * 10, 'GLOSSARY', '-' * 10)
 for key, values in glossary.items():
-    print(key.title() + ':', '\n\t' + values + '\n')
+    print(
+        key.title() + ':',
+        '\n\t' + values + '\n'
+    )
