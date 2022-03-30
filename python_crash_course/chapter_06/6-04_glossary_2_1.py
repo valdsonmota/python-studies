@@ -8,4 +8,6 @@ glossary = {
     }
 print('-' * 10, 'GLOSSARY', '-' * 10)
 for key in glossary.keys():
-    print(key.title() + '\n')
+    print(
+        key.title() + '\n'
+    )
