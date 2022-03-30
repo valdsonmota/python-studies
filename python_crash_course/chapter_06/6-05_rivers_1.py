@@ -5,7 +5,8 @@ rivers = {
     'parana': 'brazil'
 }
 for river, about in rivers.items():
-    print('\n',
-            river.title(),
-            'River crosses',
-            about.title())
+    print(
+        '\n' + river.title(),
+        'River crosses',
+        about.title()
+    )
