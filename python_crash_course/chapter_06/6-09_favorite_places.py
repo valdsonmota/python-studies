@@ -16,7 +16,11 @@ favorite_places = {
         'new york'
     ]
 }
-print('-' * 10, 'FAVORITE PLACES', '-' * 10)
+print(
+    '-' * 10,
+    'FAVORITE PLACES',
+    '-' * 10
+)
 for person, places in favorite_places.items():
     if len(places) > 1:
         print(
