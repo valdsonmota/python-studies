@@ -14,7 +14,7 @@ resultado2 = calcula_media(valor1=9, valor2=10, valor3=9)
 print(resultado2)
 
 print('Olá', end=' ')
-print(', Vadson')
+print(', Valdson')
 
 def calcula_media(valor1=0, valor2=0, valor3=0):
     soma = valor1 + valor2 + valor3
